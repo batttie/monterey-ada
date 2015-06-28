@@ -14,10 +14,10 @@
 EnterReplies = ['Hi',' Target Acquired','Welcome aboard']
 
 module.exports =(robot) ->
-	robot.enter (msg) ->
-	If room is #testing
-		msg.reply "Hi"
-	Else
-		msg.reply msg.random EnterReplies
+robot.enter (msg) ->
+If room is #testing
+msg.reply "Hi"
+Else
+msg.reply msg.random EnterReplies
 
 
